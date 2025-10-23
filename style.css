@@ -1,17 +1,30 @@
+/* Body + Background */
 body {
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  background: linear-gradient(to bottom, #f0f8ff, #e6f2ff);
   margin: 0;
   padding: 0;
 }
+
+/* Main container */
 .container {
   max-width: 600px;
   margin: 50px auto;
   background: #fff;
   padding: 30px;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
 }
+
+/* Logo */
+.logo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Headings */
 h1 {
   margin-bottom: 10px;
   color: #333;
@@ -20,14 +33,17 @@ p {
   font-size: 1.2em;
   color: #555;
 }
+
+/* Buttons */
 .btn {
   display: block;
   margin: 20px auto;
   padding: 15px 25px;
   text-decoration: none;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 8px;
   font-weight: bold;
+  transition: all 0.3s ease;
 }
 .apply-form {
   background: #007BFF;
@@ -35,8 +51,26 @@ p {
 .whats-app {
   background: #25D366;
 }
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Footer */
 footer {
   margin-top: 30px;
   font-size: 0.9em;
   color: #555;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 20px;
+    padding: 20px;
+  }
+  .btn {
+    width: 90%;
+    padding: 12px;
+  }
 }
