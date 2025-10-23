@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+p {
+  font-size: 1.2em;
+  color: #555;
+}
+.btn {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.apply-form {
+  background: #007BFF;
+}
+.whats-app {
+  background: #25D366;
+}
+footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #555;
+}
